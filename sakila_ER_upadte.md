@@ -25,5 +25,5 @@
 
 ### 4. Key definitions
 
-!(https://github.com/KevinSpurk/lab-database-normalization/blob/main/sakila_ERD_new.pdf)
+![ERD Update](https://github.com/KevinSpurk/lab-database-normalization/blob/main/sakila_ERD_new-2.png)
 
