@@ -9,7 +9,6 @@
 
 ### Deliverable
 
-In this lab you have to explain in a **NEW** readme, using markdown in **Visual Studio Code**, each step you have done to create the new structure and explain why you have done each of the changes.
-
+In this lab you have to explain in a NEW readme, using markdown in Visual Studio Code, each step you have done to create the new structure and explain why you have done each of the changes.
 
 ![Sakila database](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.4-lab-sakila-normalization.png)
