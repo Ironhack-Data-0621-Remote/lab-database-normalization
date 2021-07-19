@@ -15,4 +15,4 @@ The Sakila database schema is shown below. Sixteen tables are representing a rel
 I partially ignore my relational modeling experience when modeling schemas – “normalization” is not the desired end state. Instead of driving my decision on the nature of the data, I move it on operations. The most significant finding is which “entities” get linked. My first shot at mapping the data – which may prove flawed as I play with dbdiagramio – collapsed the sixteen tables into just three tables: FILMS, STORES, and CUSTOMERS. ACTORS became a nested document in FILMS, STAFF and INVENTORY were nested into STORES, while RENTALS and PAYMENTS nested into CUSTOMERS.   Whether these nestings turn out to be good design decisions will depend somewhat on the application. Some operations are going to be awkward, while others' data will expedite others.
 
 #### New propose table: 
-![photo](https://github.com/sumampouw/lab-database-normalization.png)
+![photo](https://github.com/sumampouw/lab-database-normalization/blob/main/new_sakiladb_ss.png)
