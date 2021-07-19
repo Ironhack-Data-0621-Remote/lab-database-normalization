@@ -25,5 +25,5 @@
 
 ### 4. Key definitions
 
-!(https://dbdiagram.io/d/60f5c55c4ed9be1c05d34fda)
+!(https://github.com/KevinSpurk/lab-database-normalization/blob/main/sakila_ERD_new.pdf)
 
