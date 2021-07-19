@@ -1,15 +1,29 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# Lab | Sakila ER upadte descrption
 
-# Lab | Database normalization
+### 1. ER reverse engineering
 
-### Instructions
+- Reverse engineering the current ER to get an overview of the status quo of the database relationships
+- Identifying primary and foregn keys in every table 
 
-1. Use [dbdiagram.io](https://dbdiagram.io/home) or [draw.io](https://draw.io) to propose a new structure for the `Sakila` database.
-2. Define primary keys and foreign keys for the new database.
+### 2. Redundancies
 
-### Deliverable
+- Checking for redundant columns across table and removing columns or tables when it makes sense
+  > The table 'film_text' can be removed because all the information is already present in the table 'film'
 
-In this lab you have to explain in a **NEW** readme, using markdown in **Visual Studio Code**, each step you have done to create the new structure and explain why you have done each of the changes.
+### 3. Normalization
 
+- Checking for 1NF
+  > Assuming that every field in the database has only one value
 
-![Sakila database](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.4-lab-sakila-normalization.png)
+- Checking for 2NF
+  > There are no partial functional dependencies in the database
+
+- Checking for 3NF
+  > Column 'district in table 'address' transitive functional dependency with 'city_id'
+  > 'country' is only referred to by 'city', 'city' is only reffered to by 'address'. 
+  > New structure for addresses: a new table 'district' with 'district_id' as PK used in 'city' as a FK and includes 'country_id' as a FK
+
+### 4. Key definitions
+
+!(https://dbdiagram.io/d/60f5c55c4ed9be1c05d34fda)
+
