@@ -1,15 +1,16 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+Lab: Database normalisation
 
-# Lab | Database normalization
+This schema is for a modified version of the Sakila database.
 
-### Instructions
+I have modified the table slightly to represent a version of Sakila which is for an online film rental service only available in Germany.
 
-1. Use [dbdiagram.io](https://dbdiagram.io/home) or [draw.io](https://draw.io) to propose a new structure for the `Sakila` database.
-2. Define primary keys and foreign keys for the new database.
+I have removed the following tables:
 
-### Deliverable
+- Country
+- Inventory
+- Store
+- Staff
 
-In this lab you have to explain in a **NEW** readme, using markdown in **Visual Studio Code**, each step you have done to create the new structure and explain why you have done each of the changes.
+These are no longer necessary as my version of Sakila has no physical stores and is only available in one country :)
 
-
-![Sakila database](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.4-lab-sakila-normalization.png)
+I kept the remaining keys and relationships the same as the previous Sakila schema.
