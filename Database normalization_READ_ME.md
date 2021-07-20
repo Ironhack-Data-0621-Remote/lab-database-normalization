@@ -9,11 +9,7 @@ NORMALIZATION OF THE SAKILA DATABASE
 | special_feature | special_feature_id |
 | ------------------ | ------------------ |
 | Trailers | 1 |
-| ------------------ | ------------------ |
 | Deleted Scenes | 2 | 
-| ------------------ | ------------------ |
 | Commentaries | 3 |
-| ------------------ | ------------------ |
 | Behinde the Scenes | 4 | 
-| ------------------ | ------------------ |
 
