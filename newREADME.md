@@ -24,6 +24,7 @@ removing original language id in table "film"
 
 ## Result of new ERD
 
+![ERD](https://github.com/katharina-beriault/lab-database-normalization/blob/main/ERD_sakila_new.png?raw=true)
 
 ### OPTIONAL changes to reduce amount of tables
 
