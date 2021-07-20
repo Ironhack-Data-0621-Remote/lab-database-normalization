@@ -1,8 +1,7 @@
 # NORMALIZATION SAKILA DATABASE
 
-Following this steps to bring the sakila database in a normalized form: 
+Following this steps to bring the sakila database in a normalized form: //
 showing the starting point, normalize it (1NF, 2NF, 3NF), visualize the reult with db diagramm
-__
 
 This is how the database sakila looks before normalization: 
 ![photo](https://raw.githubusercontent.com/CharlotteStiller/lab-database-normalization/main/Sakila_Before_N.JPG)
