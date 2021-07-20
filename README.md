@@ -1,4 +1,4 @@
-Lab: Database normalisation
+##Lab: Database normalisation
 
 This schema is for a modified version of the Sakila database.
 
