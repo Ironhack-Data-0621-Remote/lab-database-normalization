@@ -1,15 +1,25 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-
 # Lab | Database normalization
 
-### Instructions
-
-1. Use [dbdiagram.io](https://dbdiagram.io/home) or [draw.io](https://draw.io) to propose a new structure for the `Sakila` database.
-2. Define primary keys and foreign keys for the new database.
-
-### Deliverable
-
-In this lab you have to explain in a **NEW** readme, using markdown in **Visual Studio Code**, each step you have done to create the new structure and explain why you have done each of the changes.
+I used [dbdiagram.io](https://dbdiagram.io/home) as a tool to create the diagram of 'Sakila' to show the relations between each tables. 
 
 
-![Sakila database](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/3.4-lab-sakila-normalization.png)
+## The diagram of 'Sakila' database
+![sakila](sakila.png)
+
+
+## The process of creating diagram
+
+First, I structured the database into two main parts as following
+
+    1. FILM --'film' table and its related tables (left side of the diagram)
+    2. RENTAL --'rental' table and its related tables (right side of the diagram)
+
+Then deleted some tables which I thought not necessary, those are 'inventory' 'film_category'. I connected the tables by placing the tables containing foreign keys around the main ones. (ex. film -> film_actor -> actor)
+
+The primary keys are shown in the diagram.
+
+### Table and column names
+
+To avoid copy & pasting the table and column names, I imported the data from 'sakila-schema.sql'. However, it took some time to clean the data (for example deleting default condition). I could not find any better way to automate the process. 
+ 
+
