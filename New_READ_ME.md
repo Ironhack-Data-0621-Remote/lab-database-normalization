@@ -81,4 +81,4 @@ This is how the database sakila looks after normalization:
 Links:  \
 https://dbdiagram.io/  \
 https://www.guru99.com/database-normalization.html  \
-https://www.studytonight.com/dbms/database-normalization.php  \
+https://www.studytonight.com/dbms/database-normalization.php  
