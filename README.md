@@ -2,7 +2,7 @@ Lab: Database normalisation
 
 This schema is for a modified version of the Sakila database.
 
-Sakila_online.png
+<img src="./Sakila_online.png">
 
 I have modified the table slightly to represent a version of Sakila which is for an online film rental service only available in Germany.
 
