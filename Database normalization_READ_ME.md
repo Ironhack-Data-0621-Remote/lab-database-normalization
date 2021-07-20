@@ -6,3 +6,9 @@ NORMALIZATION OF THE SAKILA DATABASE
 
 ![photo](https://raw.githubusercontent.com/CharlotteStiller/lab-database-normalization/main/Sakila_Before_N.JPG)
 
+| special_feature | special_feature_id |
+| Trailers | 1 |
+| Deleted Scenes | 2 | 
+| Commentaries | 3 |
+| Behinde the Scenes | 4 | 
+
